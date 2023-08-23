@@ -137,3 +137,13 @@
   z-index: -11;
   overflow: hidden;
 }
+
+.service_card {
+  position: relative;
+}
+.service_icon {
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
