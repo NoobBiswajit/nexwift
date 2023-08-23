@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <!-- =========Nav-end======== -->
+    <section>
+      <nav>
+        <div class="py-4">
+          <div class="container mx-auto">
+            <div class="grid grid-cols-12 gap-10 items-center justify-between">
+              <div class="col-span-3">
+                <div class="">
+                  <img class="h-16" src="./img/qgqeg.png" alt="" />
+                </div>
+              </div>
+              <div class="col-span-9">
+                <div
+                  class="grid grid-cols-12 justify-between items-center gap-5"
+                >
+                  <div class="col-span-10">
+                    <ul class="flex justify-between items-center">
+                      <li>
+                        <a
+                          class="text-base font-rlw text-white font-semibold hover:text-Nblue"
+                          href=""
+                          >Home</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="text-base font-rlw text-white font-semibold hover:text-Nblue"
+                          href=""
+                          >About</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="text-base font-rlw text-white font-semibold hover:text-Nblue"
+                          href=""
+                          >Services</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="text-base font-rlw text-white font-semibold hover:text-Nblue"
+                          href=""
+                          >Solution</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="text-base font-rlw text-white font-semibold hover:text-Nblue"
+                          href=""
+                          >Protfolio</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="text-base font-rlw text-white font-semibold hover:text-Nblue"
+                          href=""
+                          >Career</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="text-base font-rlw text-white font-semibold hover:text-Nblue"
+                          href=""
+                          >Contact</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-span-2">
+                    <div class="flex justify-end">
+                      <a
+                        class="font-rlw text-white bg-Nblue font-base py-1 px-3 rounded-md font-semibold hover:bg-black"
+                        href="#"
+                        >Sign Up</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="hero-slider">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div
+                class="bg-cover bg-no-repeat bg-center slider_img"
+                style="background-image: url('./img/hero_section.jpg')"
+              ></div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="bg-cover bg-no-repeat bg-center slider_img"
+                style="background-image: url('./img/slider001.jpg')"
+              ></div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="bg-cover bg-no-repeat bg-center slider_img"
+                style="background-image: url('./img/slider002.jpg')"
+              ></div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        loop: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+  </body>
+</html>
