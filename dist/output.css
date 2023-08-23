@@ -603,6 +603,18 @@ video {
   height: 4rem;
 }
 
+.h-\[100px\]{
+  height: 100px;
+}
+
+.h-\[200px\]{
+  height: 200px;
+}
+
+.w-1\/2{
+  width: 50%;
+}
+
 .grid-cols-12{
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
@@ -631,9 +643,9 @@ video {
   border-radius: 0.375rem;
 }
 
-.bg-Nblue{
+.bg-white{
   --tw-bg-opacity: 1;
-  background-color: rgb(2 7 93 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-cover{
@@ -672,8 +684,32 @@ video {
   line-height: 1.5rem;
 }
 
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-semibold{
   font-weight: 600;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-white{
@@ -681,9 +717,9 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.hover\:bg-black:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+.text-rpigment{
+  --tw-text-opacity: 1;
+  color: rgb(237 21 32 / var(--tw-text-opacity));
 }
 
 .hover\:text-Nblue:hover{

@@ -12,14 +12,40 @@
   </head>
   <body>
     <!-- =========Nav-end======== -->
-    <section>
-      <nav>
+    <header class="hearder-area">
+      <div class="hero-slider">
+        <div class="swiper heroSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div
+                class="bg-cover bg-no-repeat bg-center slider_img"
+                style="background-image: url('./img/hero_section.jpg')"
+              ></div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="bg-cover bg-no-repeat bg-center slider_img"
+                style="background-image: url('./img/slider001.jpg')"
+              ></div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="bg-cover bg-no-repeat bg-center slider_img"
+                style="background-image: url('./img/slider002.jpg')"
+              ></div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- ==========nav-start========= -->
+      <nav class="nav_area">
         <div class="py-4">
           <div class="container mx-auto">
             <div class="grid grid-cols-12 gap-10 items-center justify-between">
               <div class="col-span-3">
                 <div class="">
-                  <img class="h-16" src="./img/qgqeg.png" alt="" />
+                  <img class="h-16" src="./img/NEW-LOGO-white.png" alt="" />
                 </div>
               </div>
               <div class="col-span-9">
@@ -82,7 +108,7 @@
                   <div class="col-span-2">
                     <div class="flex justify-end">
                       <a
-                        class="font-rlw text-white bg-Nblue font-base py-1 px-3 rounded-md font-semibold hover:bg-black"
+                        class="font-rlw text-black font-base py-1 px-3 rounded-md font-semibold bg-white"
                         href="#"
                         >Sign Up</a
                       >
@@ -94,39 +120,50 @@
           </div>
         </div>
       </nav>
-      <div class="hero-slider">
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div
-                class="bg-cover bg-no-repeat bg-center slider_img"
-                style="background-image: url('./img/hero_section.jpg')"
-              ></div>
-            </div>
-            <div class="swiper-slide">
-              <div
-                class="bg-cover bg-no-repeat bg-center slider_img"
-                style="background-image: url('./img/slider001.jpg')"
-              ></div>
-            </div>
-            <div class="swiper-slide">
-              <div
-                class="bg-cover bg-no-repeat bg-center slider_img"
-                style="background-image: url('./img/slider002.jpg')"
-              ></div>
+      <div class="text-slider">
+        <div class="container mx-auto">
+          <div class="">
+            <div class="swiper mySwiper h-[200px]">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="">
+                    <h2 class="text-5xl font-rlw font-bold text-white">
+                      Provide The Innovation <br />
+                      <span class="text-rpigment">Creative</span> Product
+                    </h2>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="">
+                    <h2 class="text-5xl font-rlw font-bold text-white">
+                      Provide The Innovation <br />
+                      <span class="text-rpigment">Creative</span> Product
+                    </h2>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="">
+                    <h2 class="text-5xl font-rlw font-bold text-white">
+                      Provide The Innovation <br />
+                      <span class="text-rpigment">Creative</span> Product
+                    </h2>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="swiper-pagination"></div>
         </div>
       </div>
-    </section>
+    </header>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./src/coustom.js"></script>
     <script>
       var swiper = new Swiper(".mySwiper", {
-        pagination: {
-          el: ".swiper-pagination",
-        },
+        direction: "vertical",
+        slidesPerView: 1,
+        spaceBetween: 30,
+        mousewheel: true,
         loop: true,
         autoplay: {
           delay: 2500,

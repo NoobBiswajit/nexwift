@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         dred: "#F00",
         Nblue: "#02075d",
+        rpigment: "#ED1520",
       },
     },
   },
