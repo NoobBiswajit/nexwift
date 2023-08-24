@@ -147,3 +147,28 @@
   left: 50%;
   transform: translateX(-50%);
 }
+
+
+.contact_content{
+   position: relative;
+    overflow: hidden;
+  }
+
+  .dcircle{
+    position: absolute;
+    bottom: -20%;
+    right: -15%;
+  }
+
+  .contact_area{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .contact_circle{
+    position: absolute;
+    top: -30px;
+    right: -40px;
+   
+  }
