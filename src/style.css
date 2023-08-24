@@ -172,3 +172,38 @@
     right: -40px;
    
   }
+
+  .happend_card{
+    position: relative;
+    
+  }
+
+  .happend_sl{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+  }
+
+
+  .happend_area{
+    position: relative;
+    overflow: hidden;
+  }
+  .happend_doth{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .happend_shadow{
+     position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .happend_round{
+    position: absolute;
+    bottom: -10%;
+    right: -4%;
+
+  }
