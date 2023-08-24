@@ -643,8 +643,16 @@ video {
   height: 4rem;
 }
 
+.h-\[100px\]{
+  height: 100px;
+}
+
 .h-\[200px\]{
   height: 200px;
+}
+
+.h-auto{
+  height: auto;
 }
 
 .w-14{
@@ -655,6 +663,10 @@ video {
   width: 5rem;
 }
 
+.w-36{
+  width: 9rem;
+}
+
 .w-4\/5{
   width: 80%;
 }
@@ -663,16 +675,12 @@ video {
   width: 15rem;
 }
 
+.w-\[100px\]{
+  width: 100px;
+}
+
 .w-full{
   width: 100%;
-}
-
-.w-28{
-  width: 7rem;
-}
-
-.w-36{
-  width: 9rem;
 }
 
 .grid-cols-12{
@@ -717,6 +725,10 @@ video {
 
 .gap-2{
   gap: 0.5rem;
+}
+
+.gap-20{
+  gap: 5rem;
 }
 
 .gap-3{
