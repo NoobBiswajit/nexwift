@@ -217,3 +217,42 @@
     background-repeat: none;
     background-position: center center;
   }
+
+  .teamcard{
+    position: relative;
+    transition: 1s all ease;
+  }
+
+  .teamcard::after{
+    position:absolute;
+    content: '';
+    height: 50%;
+    width: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    background: #0080FF;
+     transition: 1s all ease;
+
+  }
+
+  .teamcard::before {
+    position:absolute;
+    content: '';
+    height: 50%;
+    width: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    background: #0080FF;
+     transition: 1s all ease;
+
+  }
+
+    .teamcard:hover.teamcard::before{
+      height: 100%;
+    }
+    
+    .teamcard:hover.teamcard::after{
+      height: 100%;
+    }
