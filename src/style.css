@@ -207,3 +207,13 @@
     right: -4%;
 
   }
+
+
+  .teamcard_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: none;
+    background-position: center center;
+  }
