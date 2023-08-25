@@ -252,3 +252,32 @@
 .blog_banner {
   height: 240px;
 }
+.marquee {
+  overflow: hidden;
+}
+.marquee-content {
+  display: flex;
+  align-items: center;
+  animation: scrolling 20s linear infinite;
+}
+
+.marquee-item {
+  flex: 0 0 16vw;
+  margin: 0 10px;
+  /*   flex: 0 0 20vw; */
+  /*   margin: 0 2vw; */
+}
+
+.marquee-item img {
+  display: block;
+  width: 100px;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translatex(-144vw);
+  }
+}
