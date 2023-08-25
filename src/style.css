@@ -148,111 +148,107 @@
   transform: translateX(-50%);
 }
 
+.contact_content {
+  position: relative;
+  overflow: hidden;
+}
 
-.contact_content{
-   position: relative;
-    overflow: hidden;
-  }
+.dcircle {
+  position: absolute;
+  bottom: -20%;
+  right: -15%;
+}
 
-  .dcircle{
-    position: absolute;
-    bottom: -20%;
-    right: -15%;
-  }
+.contact_area {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
 
-  .contact_area{
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-  }
+.contact_circle {
+  position: absolute;
+  top: -30px;
+  right: -40px;
+}
 
-  .contact_circle{
-    position: absolute;
-    top: -30px;
-    right: -40px;
-   
-  }
+.happend_card {
+  position: relative;
+}
 
-  .happend_card{
-    position: relative;
-    
-  }
+.happend_sl {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
 
-  .happend_sl{
-    position: absolute;
-    top: -10px;
-    left: -10px;
-  }
+.happend_area {
+  position: relative;
+  overflow: hidden;
+}
+.happend_doth {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 
+.happend_shadow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 
-  .happend_area{
-    position: relative;
-    overflow: hidden;
-  }
-  .happend_doth{
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
+.happend_round {
+  position: absolute;
+  bottom: -10%;
+  right: -4%;
+}
 
-  .happend_shadow{
-     position: absolute;
-    bottom: 0;
-    left: 0;
-  }
+.teamcard_img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-size: cover;
+  background-repeat: none;
+  background-position: center center;
+}
 
-  .happend_round{
-    position: absolute;
-    bottom: -10%;
-    right: -4%;
+.teamcard {
+  position: relative;
+  transition: 1s all ease;
+}
 
-  }
+.teamcard::after {
+  position: absolute;
+  content: "";
+  height: 50%;
+  width: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  background: #0080ff;
+  transition: 1s all ease;
+}
 
+.teamcard::before {
+  position: absolute;
+  content: "";
+  height: 50%;
+  width: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  background: #0080ff;
+  transition: 1s all ease;
+}
 
-  .teamcard_img{
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    background-size: cover;
-    background-repeat: none;
-    background-position: center center;
-  }
+.teamcard:hover.teamcard::before {
+  height: 100%;
+}
 
-  .teamcard{
-    position: relative;
-    transition: 1s all ease;
-  }
+.teamcard:hover.teamcard::after {
+  height: 100%;
+}
 
-  .teamcard::after{
-    position:absolute;
-    content: '';
-    height: 50%;
-    width: 2px;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 0;
-    background: #0080FF;
-     transition: 1s all ease;
-
-  }
-
-  .teamcard::before {
-    position:absolute;
-    content: '';
-    height: 50%;
-    width: 2px;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
-    background: #0080FF;
-     transition: 1s all ease;
-
-  }
-
-    .teamcard:hover.teamcard::before{
-      height: 100%;
-    }
-    
-    .teamcard:hover.teamcard::after{
-      height: 100%;
-    }
+.blog_banner {
+  height: 240px;
+}
