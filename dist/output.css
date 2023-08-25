@@ -611,6 +611,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-16{
+  margin-top: 4rem;
+}
+
 .mt-2{
   margin-top: 0.5rem;
 }
@@ -635,8 +639,8 @@ video {
   margin-top: 24rem;
 }
 
-.mt-16{
-  margin-top: 4rem;
+.mt-12{
+  margin-top: 3rem;
 }
 
 .flex{
@@ -699,6 +703,10 @@ video {
   width: 80%;
 }
 
+.w-40{
+  width: 10rem;
+}
+
 .w-48{
   width: 12rem;
 }
@@ -715,12 +723,8 @@ video {
   width: 100%;
 }
 
-.w-24{
-  width: 6rem;
-}
-
-.w-16{
-  width: 4rem;
+.list-disc{
+  list-style-type: disc;
 }
 
 .grid-cols-12{
@@ -803,6 +807,11 @@ video {
   border-style: none;
 }
 
+.border-white{
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
 .border-b-Nblue{
   --tw-border-opacity: 1;
   border-bottom-color: rgb(2 7 93 / var(--tw-border-opacity));
@@ -835,6 +844,11 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-cover{
@@ -915,11 +929,6 @@ video {
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.py-16{
-  padding-top: 4rem;
-  padding-bottom: 4rem;
 }
 
 .pb-10{
@@ -1028,6 +1037,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.underline{
+  text-decoration-line: underline;
+}
+
 .shadow-smallS{
   --tw-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
   --tw-shadow-colored: 0px 2px 8px 0px; var(--tw-shadow-color);
@@ -1042,6 +1055,16 @@ video {
 .placeholder\:text-Nblue::placeholder{
   --tw-text-opacity: 1;
   color: rgb(2 7 93 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-white::-moz-placeholder{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-white::placeholder{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:bg-\[\#F25B62\]:hover{
@@ -1059,6 +1082,11 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-Nblue:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(2 7 93 / var(--tw-bg-opacity));
+}
+
 .hover\:text-Nblue:hover{
   --tw-text-opacity: 1;
   color: rgb(2 7 93 / var(--tw-text-opacity));
@@ -1072,6 +1100,11 @@ video {
 .hover\:text-azure:hover{
   --tw-text-opacity: 1;
   color: rgb(0 128 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus{

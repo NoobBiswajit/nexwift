@@ -281,3 +281,36 @@
     transform: translatex(-144vw);
   }
 }
+
+.patner_area {
+  position: relative;
+  overflow: hidden;
+}
+
+.patnerCircle {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+}
+
+.patnerdoth {
+  position: absolute;
+  bottom: -40px;
+  left: -40px;
+}
+
+.patnerCircle2 {
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+}
+.patnerCircle3 {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  width: 60px;
+}
+
+.footer_link {
+  border-bottom: 1px solid #fff;
+}
