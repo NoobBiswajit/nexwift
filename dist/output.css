@@ -932,6 +932,11 @@ video {
   padding-right: 0.5rem;
 }
 
+.py-24{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -1105,6 +1110,10 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:mt-6{
+    margin-top: 1.5rem;
+  }
+
   .md\:flex{
     display: flex;
   }
@@ -1137,6 +1146,10 @@ video {
     gap: 1.25rem;
   }
 
+  .md\:gap-6{
+    gap: 1.5rem;
+  }
+
   .md\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -1160,6 +1173,11 @@ video {
     font-size: 1rem;
     line-height: 1.5rem;
   }
+
+  .md\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 1024px){
@@ -1169,6 +1187,10 @@ video {
 
   .lg\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:items-start{
@@ -1191,6 +1213,11 @@ video {
   .lg\:px-16{
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .lg\:py-20{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .lg\:pt-20{
