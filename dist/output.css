@@ -1184,6 +1184,14 @@ video {
     margin-top: 2.5rem;
   }
 
+  .lg\:mt-0{
+    margin-top: 0px;
+  }
+
+  .lg\:w-4\/5{
+    width: 80%;
+  }
+
   .lg\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1215,12 +1223,21 @@ video {
     padding-right: 2.5rem;
   }
 
+  .lg\:py-32{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
   .lg\:pt-20{
     padding-top: 5rem;
   }
 
   .lg\:text-left{
     text-align: left;
+  }
+
+  .lg\:text-center{
+    text-align: center;
   }
 
   .lg\:text-3xl{
