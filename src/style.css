@@ -22,7 +22,16 @@
 }
 
 .nav_area {
-  position: absolute;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 11;
+}
+
+nav.scroll {
+  background-color: #000;
+  color: #eef;
+  position: fixed;
   width: 100%;
   top: 0;
   z-index: 11;
@@ -36,7 +45,7 @@
 .slogan_text {
   position: absolute;
   top: 35%;
-  z-index: 15;
+  z-index: 10;
 }
 
 .heading_text {
@@ -59,7 +68,7 @@
 
 .about-area {
   position: relative;
-  z-index: 1111111111;
+  z-index: 10;
 }
 .about_doth {
   position: absolute;

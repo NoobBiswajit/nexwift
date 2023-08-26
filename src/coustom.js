@@ -82,3 +82,9 @@ var swiper = new Swiper(".blogSwiper", {
     },
   },
 });
+
+window.onscroll = () => {
+  const nav = document.querySelector("#navbar");
+  if (this.scrollY <= 1) nav.className = "nav_area";
+  else nav.className = "scroll";
+};
