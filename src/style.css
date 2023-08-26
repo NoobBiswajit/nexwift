@@ -323,3 +323,7 @@ nav.scroll {
 .footer_link {
   border-bottom: 1px solid #fff;
 }
+
+/* ===============Responsive============ */
+@media (max-width: 1024px) {
+}
