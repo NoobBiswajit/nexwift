@@ -25,7 +25,7 @@ var swiper = new Swiper(".mySwiper", {
 // ============team-slider==========
 
 var swiper = new Swiper(".teamSwiper", {
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 30,
   freeMode: true,
   loop: true,
