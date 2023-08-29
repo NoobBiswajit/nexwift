@@ -667,24 +667,8 @@ video {
   height: 9rem;
 }
 
-.h-\[100px\]{
-  height: 100px;
-}
-
 .h-\[200px\]{
   height: 200px;
-}
-
-.h-auto{
-  height: auto;
-}
-
-.h-\[50px\]{
-  height: 50px;
-}
-
-.w-1\/2{
-  width: 50%;
 }
 
 .w-10{
@@ -715,16 +699,12 @@ video {
   width: 15rem;
 }
 
-.w-\[100px\]{
-  width: 100px;
+.w-\[50px\]{
+  width: 50px;
 }
 
 .w-full{
   width: 100%;
-}
-
-.w-\[50px\]{
-  width: 50px;
 }
 
 .grid-cols-12{
@@ -763,16 +743,8 @@ video {
   gap: 2.5rem;
 }
 
-.gap-16{
-  gap: 4rem;
-}
-
 .gap-2{
   gap: 0.5rem;
-}
-
-.gap-20{
-  gap: 5rem;
 }
 
 .gap-3{
@@ -1132,6 +1104,10 @@ video {
     justify-content: center;
   }
 
+  .md\:gap-10{
+    gap: 2.5rem;
+  }
+
   .md\:gap-4{
     gap: 1rem;
   }
@@ -1142,10 +1118,6 @@ video {
 
   .md\:gap-6{
     gap: 1.5rem;
-  }
-
-  .md\:gap-10{
-    gap: 2.5rem;
   }
 
   .md\:px-4{
@@ -1187,16 +1159,24 @@ video {
     margin-top: 2.5rem;
   }
 
-  .lg\:h-\[100px\]{
-    height: 100px;
+  .lg\:mt-20{
+    margin-top: 5rem;
   }
 
-  .lg\:w-\[100px\]{
-    width: 100px;
+  .lg\:flex{
+    display: flex;
+  }
+
+  .lg\:grid{
+    display: grid;
   }
 
   .lg\:w-1\/2{
     width: 50%;
+  }
+
+  .lg\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-3{
@@ -1207,16 +1187,16 @@ video {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .lg\:grid-cols-2{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .lg\:items-start{
     align-items: flex-start;
   }
 
   .lg\:justify-start{
     justify-content: flex-start;
+  }
+
+  .lg\:gap-16{
+    gap: 4rem;
   }
 
   .lg\:gap-20{
@@ -1242,14 +1222,14 @@ video {
     padding-right: 4rem;
   }
 
-  .lg\:py-32{
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-  }
-
   .lg\:py-20{
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .lg\:py-32{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
 
   .lg\:pt-20{
@@ -1279,16 +1259,8 @@ video {
     width: 80%;
   }
 
-  .xl\:w-full{
-    width: 100%;
-  }
-
   .xl\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .xl\:grid-cols-2{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .xl\:justify-end{
