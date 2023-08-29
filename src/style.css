@@ -88,6 +88,12 @@ nav.scroll {
   background: #02075d;
   margin-top: 5px;
 }
+.chalenges_text_line2 {
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  margin-top: 5px;
+}
 
 .chalenges_text {
   position: relative;
