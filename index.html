@@ -7,11 +7,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link href="/dist/output.css" rel="stylesheet" />
     <link rel="stylesheet" href="./src/style.css" />
+    <style>
+     
+    </style>
 </head>
 
 <body>
     <!-- =========Nav-end======== -->
-    <!-- <header class="hearder-area">
+     <header class="hearder-area">
         <div class="hero-slider">
             <div class="swiper heroSwiper">
                 <div class="swiper-wrapper">
@@ -33,14 +36,15 @@
                 <div class="container mx-auto">
                     <div class="md:grid grid-cols-12 gap-10 items-center justify-between">
                         <div class="col-span-3">
-                            <div class=" flex justify-between"> <a href="#"> <img class="h-16" src="./img/NEW-LOGO-white.png" alt="" /> </a> <button class="text-white text-3xl">
+                            <div class=" flex justify-between"> <a href="#"> <img class="h-16" src="./img/NEW-LOGO-white.png" alt="" /> </a> 
+                                <button class="text-white text-3xl " id="flip">
                                     <iconify-icon icon="ic:round-menu"></iconify-icon>
                                 </button> </div>
                         </div>
-                        <div class="col-span-9 hidden ">
-                            <div class="md:grid grid-cols-12 justify-between items-center gap-5">
-                                <div class="col-span-10">
-                                    <ul class="md:flex justify-between items-center">
+                        <div class="col-span-9" >
+                            <div class="md:grid grid-cols-12 justify-between items-center gap-5 main" id="dropdwon">
+                                <div class="col-span-10 ">
+                                    <ul class="md:flex justify-between items-center ">
                                         <li> <a class="text-base font-rlw text-white font-semibold hover:text-Nblue" href="">Home</a> </li>
                                         <li> <a class="text-base font-rlw text-white font-semibold hover:text-Nblue" href="">About</a> </li>
                                         <li> <a class="text-base font-rlw text-white font-semibold hover:text-Nblue" href="">Services</a> </li>
@@ -89,7 +93,7 @@
                 <p class="text-sm font-rlw text-white"> Lorem Ipsum has been the industry's standard dummy text ever <br /> since the 1500s, when an unknown printer took a galley of type <br /> and scrambled it to make </p>
             </div>
         </div>
-    </header> -->
+    </header>
    <!-- ======Header-end=========== -->
     <section>
         <div class="about-area bg-white px-3 lg:px-10">
@@ -1317,9 +1321,15 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    <script src="src/jquery.min.js"></script>
+    <script src="./src/jquery.min.js"></script>
     <script src="./src/coustom.js"></script>
-    <script></script>
+    <script>
+  $(document).ready(function () {
+        $("button").click(function () {
+            $("#dropdwon").fadeToggle("main");
+        });
+    });
+    </script>
 </body>
 
 </html>
