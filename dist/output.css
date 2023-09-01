@@ -570,6 +570,10 @@ video {
   }
 }
 
+.order-last{
+  order: 9999;
+}
+
 .col-span-10{
   grid-column: span 10 / span 10;
 }
@@ -966,6 +970,10 @@ video {
   font-weight: 600;
 }
 
+.tracking-wide{
+  letter-spacing: 0.025em;
+}
+
 .text-Nblue{
   --tw-text-opacity: 1;
   color: rgb(2 7 93 / var(--tw-text-opacity));
@@ -979,6 +987,11 @@ video {
 .text-black{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-dred{
+  --tw-text-opacity: 1;
+  color: rgb(255 0 0 / var(--tw-text-opacity));
 }
 
 .text-orange-400{
@@ -1022,6 +1035,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:bg-Nblue:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(2 7 93 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-\[\#F25B62\]:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(242 91 98 / var(--tw-bg-opacity));
@@ -1063,8 +1081,20 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:order-first{
+    order: -9999;
+  }
+
   .md\:mt-0{
     margin-top: 0px;
+  }
+
+  .md\:mt-10{
+    margin-top: 2.5rem;
+  }
+
+  .md\:mt-16{
+    margin-top: 4rem;
   }
 
   .md\:mt-6{
@@ -1081,6 +1111,10 @@ video {
 
   .md\:h-\[200px\]{
     height: 200px;
+  }
+
+  .md\:w-1\/2{
+    width: 50%;
   }
 
   .md\:grid-cols-2{
@@ -1123,6 +1157,10 @@ video {
 
   .md\:text-left{
     text-align: left;
+  }
+
+  .md\:text-center{
+    text-align: center;
   }
 
   .md\:text-base{
@@ -1222,9 +1260,19 @@ video {
     padding-right: 4rem;
   }
 
+  .lg\:px-6{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .lg\:py-20{
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .lg\:py-3{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 
   .lg\:py-32{
@@ -1255,6 +1303,11 @@ video {
   .lg\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .lg\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -1287,6 +1340,11 @@ video {
   .xl\:py-32{
     padding-top: 8rem;
     padding-bottom: 8rem;
+  }
+
+  .xl\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .xl\:text-5xl{
