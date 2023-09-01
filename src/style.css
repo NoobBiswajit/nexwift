@@ -350,13 +350,30 @@ nav.scroll {
   border-bottom: 1px solid #fff;
 }
 
-.main {
+#flip {
   display: none;
 }
 
 /* ===============Responsive============ */
 @media (max-width: 768px) {
+  .hearder-area {
+    margin-top: 95px;
+  }
+
   .nav_area {
     background: #000;
+  }
+
+  .main {
+    display: none;
+  }
+
+  #flip {
+    display: flex;
+  }
+
+  .slider_img {
+    height: 25vh;
+
   }
 }

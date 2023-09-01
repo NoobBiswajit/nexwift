@@ -14,7 +14,7 @@
 
 <body>
     <!-- =========Nav-end======== -->
-     <header class="hearder-area">
+    <header class="hearder-area">
         <div class="hero-slider">
             <div class="swiper heroSwiper">
                 <div class="swiper-wrapper">
@@ -36,8 +36,9 @@
                 <div class="container mx-auto">
                     <div class="md:grid grid-cols-12 gap-10 items-center justify-between">
                         <div class="col-span-3">
-                            <div class=" flex justify-between"> <a href="#"> <img class="h-16" src="./img/NEW-LOGO-white.png" alt="" /> </a> 
-                                <button class="text-white text-3xl " id="flip">
+                            <div class=" flex justify-between items-center"> <a href="#"> 
+                                <img class="h-16" src="./img/NEW-LOGO-white.png" alt="" /> </a> 
+                                <button class="text-white text-3xl  " id="flip">
                                     <iconify-icon icon="ic:round-menu"></iconify-icon>
                                 </button> </div>
                         </div>
@@ -63,24 +64,24 @@
                 </div>
             </div>
         </nav>
-        <div class="text-slider">
+        <div class="text-slider px-3 lg:px-10 xl:px-0">
             <div class="container mx-auto">
                 <div class="">
-                    <div class="swiper mySwiper h-[200px]">
+                    <div class="swiper mySwiper h-[100px] md:h-[200px]">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="">
-                                    <h2 class="text-5xl font-rlw font-bold text-white"> Provide The Innovation <br /> <span class="text-rpigment">Creative</span> Product </h2>
+                                    <h2 class="text-xl xl:text-5xl font-rlw font-bold text-white"> Provide The Innovation <br /> <span class="text-rpigment">Creative</span> Product </h2>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="">
-                                    <h2 class="text-5xl font-rlw font-bold text-white"> Provide The Innovation <br /> <span class="text-rpigment">Creative</span> Product </h2>
+                                    <h2 class="text-xl  xl:text-5xl font-rlw font-bold text-white"> Provide The Innovation <br /> <span class="text-rpigment">Creative</span> Product </h2>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="">
-                                    <h2 class="text-5xl font-rlw font-bold text-white"> Provide The Innovation <br /> <span class="text-rpigment">Creative</span> Product </h2>
+                                    <h2 class="text-xl  xl:text-5xl font-rlw font-bold text-white"> Provide The Innovation <br /> <span class="text-rpigment">Creative</span> Product </h2>
                                 </div>
                             </div>
                         </div>
@@ -89,10 +90,11 @@
             </div>
         </div>
         <div class="container mx-auto">
-            <div class="slogan_text">
-                <p class="text-sm font-rlw text-white"> Lorem Ipsum has been the industry's standard dummy text ever <br /> since the 1500s, when an unknown printer took a galley of type <br /> and scrambled it to make </p>
-            </div>
+        <div class="slogan_text hidden lg:flex">
+            <p class="text-sm font-rlw text-white"> Lorem Ipsum has been the industry's standard dummy text ever <br /> since
+                the 1500s, when an unknown printer took a galley of type <br /> and scrambled it to make </p>
         </div>
+     </div>
     </header>
    <!-- ======Header-end=========== -->
     <section>
@@ -1324,11 +1326,7 @@
     <script src="./src/jquery.min.js"></script>
     <script src="./src/coustom.js"></script>
     <script>
-  $(document).ready(function () {
-        $("button").click(function () {
-            $("#dropdwon").fadeToggle("main");
-        });
-    });
+
     </script>
 </body>
 
