@@ -388,45 +388,22 @@ nav.scroll {
   z-index: -11;
 }
 
-/* ==========Accordion========== */
-.acc__card {
-  position: relative;
+.post_banner {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 250px;
 }
 
 
-
-.acc__title::after {
-  width: 8px;
-  height: 8px;
-  border-right: 1px solid #4a6e78;
-  border-bottom: 1px solid #4a6e78;
-  position: absolute;
-  right: 10px;
-  content: " ";
-  top: 17px;
-  transform: rotate(-45deg);
-  transition: all 0.2s ease-in-out;
+.blog_authar {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
-
-.acc__title.active::after {
-  transform: rotate(45deg);
-  transition: all 0.2s ease-in-out;
-}
-
-.acc__panel {
-  background: #fff;
-  color: #212121;
-  display: none;
-  margin: 0;
-  padding: 2em;
-  text-align: left;
-}
-
-/* ==========Accordion========== */
-
-
-
-
 
 
 /* ===============Responsive============ */
