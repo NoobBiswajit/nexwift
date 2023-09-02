@@ -368,8 +368,61 @@ nav.scroll {
   transform: translateY(-50%);
 }
 
+.pageHeader {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+
+.pageHeader::after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: black;
+  opacity: .7;
+  z-index: -11;
+}
+
+/* ==========Accordion========== */
+.acc__card {
+  position: relative;
+}
 
 
+
+.acc__title::after {
+  width: 8px;
+  height: 8px;
+  border-right: 1px solid #4a6e78;
+  border-bottom: 1px solid #4a6e78;
+  position: absolute;
+  right: 10px;
+  content: " ";
+  top: 17px;
+  transform: rotate(-45deg);
+  transition: all 0.2s ease-in-out;
+}
+
+.acc__title.active::after {
+  transform: rotate(45deg);
+  transition: all 0.2s ease-in-out;
+}
+
+.acc__panel {
+  background: #fff;
+  color: #212121;
+  display: none;
+  margin: 0;
+  padding: 2em;
+  text-align: left;
+}
+
+/* ==========Accordion========== */
 
 
 
