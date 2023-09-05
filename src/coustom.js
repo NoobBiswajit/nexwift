@@ -3,10 +3,10 @@ var swiper = new Swiper(".heroSwiper", {
     el: ".swiper-pagination",
   },
   loop: true,
-  // autoplay: {
-  //   delay: 2500,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
 });
 
 // ======testslider=========
@@ -16,10 +16,10 @@ var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   spaceBetween: 20,
   loop: true,
-  // autoplay: {
-  //   delay: 3500,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 3500,
+    disableOnInteraction: false,
+  },
 });
 
 // ============team-slider==========
