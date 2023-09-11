@@ -3,10 +3,10 @@ var swiper = new Swiper(".heroSwiper", {
     el: ".swiper-pagination",
   },
   loop: true,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
+  // autoplay: {
+  //   delay: 2500,
+  //   disableOnInteraction: false,
+  // },
 });
 
 // ======testslider=========
@@ -16,10 +16,10 @@ var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   spaceBetween: 20,
   loop: true,
-  autoplay: {
-    delay: 3500,
-    disableOnInteraction: false,
-  },
+  // autoplay: {
+  //   delay: 3500,
+  //   disableOnInteraction: false,
+  // },
 });
 
 // ============team-slider==========
@@ -84,7 +84,7 @@ var swiper = new Swiper(".blogSwiper", {
 });
 
 var swiper = new Swiper(".compliteSwiper", {
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
@@ -114,7 +114,7 @@ var swiper = new Swiper(".compliteSwiper", {
   },
 });
 var swiper = new Swiper(".runningSwiper", {
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
