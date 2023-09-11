@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "tilt.js": "^1.2.1",
+    "vanilla-tilt": "^1.8.1"
   }
 }
