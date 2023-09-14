@@ -626,6 +626,10 @@ video {
   z-index: -30;
 }
 
+.-z-20{
+  z-index: -20;
+}
+
 .order-last{
   order: 9999;
 }
@@ -738,6 +742,10 @@ video {
 
 .mt-6{
   margin-top: 1.5rem;
+}
+
+.mt-24{
+  margin-top: 6rem;
 }
 
 .block{
