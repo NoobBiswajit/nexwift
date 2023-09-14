@@ -190,3 +190,39 @@ $(function () {
     }
   })
 })
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Get the current page URL
+  var currentUrl = window.location.href;
+
+  // Define the IDs of the menu items
+  var homeLink = document.getElementById("home-link");
+  var aboutLink = document.getElementById("about-link");
+  var careerLink = document.getElementById("career-link");
+  var portfolioLink = document.getElementById("portfolio-link");
+  var blogLink = document.getElementById("blog-link");
+  var servicesLink = document.getElementById("services-link");
+  var contactLink = document.getElementById("contact-link");
+  // Add IDs for other menu items as needed
+
+  // Check if the current URL matches the link's href attribute
+  if (currentUrl === homeLink.href) {
+    homeLink.classList.add("active");
+  } else if (currentUrl === aboutLink.href) {
+    aboutLink.classList.add("active");
+  } else if (currentUrl === contactLink.href) {
+    contactLink.classList.add("active");
+  } else if (currentUrl === careerLink.href) {
+    careerLink.classList.add("active")
+  } else if (currentUrl === blogLink.href) {
+    blogLink.classList.add("active")
+  } else if (currentUrl === portfolioLink.href) {
+    portfolioLink.classList.add("active")
+  } else if (currentUrl === servicesLink.href) {
+    servicesLink.classList.add("active")
+  }
+  // Add similar checks for other menu items
+});

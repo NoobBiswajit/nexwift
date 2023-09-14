@@ -5,8 +5,11 @@
   z-index: 1111111;
 }
 
-.navbar-nav li .nav-link.active {
-  color: red;
+
+
+.active {
+  color: #007BFF;
+
 }
 
 .slider_img {
