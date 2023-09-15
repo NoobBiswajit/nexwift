@@ -17,7 +17,7 @@
 
 <body>
     <!-- =========Nav-end======== -->
-    <nav class="px-3 lg:px-0 bg-black">
+    <nav class="px-3 lg:px-0 bg-black nav-total-area">
         <div class="py-4">
             <div class="container mx-auto">
                 <div class="md:grid grid-cols-12 gap-10 items-center justify-between">
@@ -38,19 +38,26 @@
                              id="dropdwon">
                             <div class="col-span-10 ">
                                 <ul class="md:flex justify-between items-center ">
-                                    <li> <a class="text-base font-rlw text-white font-semibold hover:text-Nblue"
+                                    <li> <a id="home-link"
+                                           class="text-base font-rlw text-white font-semibold hover:text-Nblue"
                                            href="index.html">Home</a> </li>
-                                    <li> <a class="text-base font-rlw text-white font-semibold hover:text-Nblue"
+                                    <li> <a id="about-link"
+                                           class="text-base font-rlw text-white font-semibold hover:text-Nblue"
                                            href="about.html">About</a> </li>
-                                    <li> <a class="text-base font-rlw text-white font-semibold hover:text-Nblue"
+                                    <li> <a id="services-link"
+                                           class="text-base font-rlw text-white font-semibold hover:text-Nblue"
                                            href="services.html">Services</a> </li>
-                                    <li> <a class="text-base font-rlw text-white font-semibold hover:text-Nblue"
+                                    <li> <a id="blog-link"
+                                           class="text-base font-rlw text-white font-semibold hover:text-Nblue"
                                            href="blog.html">Blog</a> </li>
-                                    <li> <a class="text-base font-rlw text-white font-semibold hover:text-Nblue"
-                                           href="protfolio.html">Protfolio</a> </li>
-                                    <li> <a class="text-base font-rlw text-white font-semibold hover:text-Nblue"
+                                    <li> <a id="portfolio-link"
+                                           class="text-base font-rlw text-white font-semibold hover:text-Nblue"
+                                           href="portfolio.html">Protfolio</a> </li>
+                                    <li> <a id="career-link"
+                                           class="text-base font-rlw text-white font-semibold hover:text-Nblue"
                                            href="career.html">Career</a> </li>
-                                    <li> <a class="text-base font-rlw text-white font-semibold hover:text-Nblue"
+                                    <li> <a id="contact-link"
+                                           class="text-base font-rlw text-white font-semibold hover:text-Nblue"
                                            href="contact.html">Contact</a> </li>
                                 </ul>
                             </div>
@@ -72,18 +79,18 @@
             <div class="container mx-auto">
                 <div class="">
                     <h2 class="text-white text-2xl lg:text-4xl font-rlw font-bold text-center">
-                        Our Protfolio
+                        Our Portfolio
                     </h2>
                 </div>
             </div>
         </div>
     </section>
     <!-- ==========Complite Project============== -->
-    <section>
+    <section class="px-3 lg:px-0">
         <div class="bg-white py-20">
             <div class="container mx-auto">
                 <div class="chalenges_text">
-                    <h2 class="text-Nblue font-rlw text-2xl lg:text-3xl font-semibold text-center lg:text-left">Complite
+                    <h2 class="text-Nblue font-rlw text-2xl lg:text-3xl font-semibold text-center lg:text-left">Completed
                         Project
                     </h2>
                     <div class="chalenges_text_line"></div>
@@ -96,28 +103,22 @@
                                 <div class=" bg-cover bg-center bg-no-repeat blog_banner  "
                                      style="background-image: url('./img/blog_banner.jpg');"></div>
                                 <div class="">
-                                    <div class="px-6 mt-2 flex justify-between items-center">
-                                        <div class="flex gap-6 items-center">
-                            
-                                            <div class=" flex items-center gap-3">
-                                                <div class="">
-                                                    <p class=" text-base text-Nblue">
-                                                        Project Duration :
-                                                    </p>
-                                                </div>
-                                                <div class="">
-                                                    <h2 class="text-base text-Nblue   font-rlw font-medium">2 Jun 2023 - 3 Jun 1998
-                                                    </h2>
-                                                </div>
-                                            </div>
-                            
+                                    <div class="px-6 mt-2 flex justify-between ">
+                                        <div class="">
+                                            <p class="text-start lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                Project Duration :
+                                            </p>
                                         </div>
-                            
+                                        <div class="">
+                                            <p class="text-end lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                2 Jun 2023 - 3 Jun 2023
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="bg-white py-4 px-6">
-                                    <h2 class=" text-Nblue font-rlw text-xl font-semibold">School Management</h2>
-                                    <p class="text-black  text-sm font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
+                                    <h2 class=" text-Nblue font-rlw lg:text-xl text-base font-semibold">School Management</h2>
+                                    <p class="text-black  lg:text-sm text-xs font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
                                         consectetur adipisicing
                                         elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
                                     </p>
@@ -130,175 +131,145 @@
                             <div class="shadow-smallS  bg-white">
                                 <div class=" bg-cover bg-center bg-no-repeat blog_banner  "
                                      style="background-image: url('./img/blog01.jpg');"></div>
-                                <div class="">
-                                    <div class="px-6 mt-2 flex justify-between items-center">
-                                        <div class="flex gap-6 items-center">
-                        
-                                            <div class=" flex items-center gap-3">
-                                                <div class="">
-                                                    <p class=" text-base text-Nblue">
-                                                        Project Duration :
-                                                    </p>
-                                                </div>
-                                                <div class="">
-                                                    <h2 class="text-base text-Nblue   font-rlw font-medium">2 Jun 2023 - 3 Jun 1998
-                                                    </h2>
-                                                </div>
+                                     <div class="">
+                                        <div class="px-6 mt-2 flex justify-between ">
+                                            <div class="">
+                                                <p class="text-start lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    Project Duration :
+                                                </p>
                                             </div>
-                        
+                                            <div class="">
+                                                <p class="text-end lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    2 Jun 2023 - 3 Jun 2023
+                                                </p>
+                                            </div>
                                         </div>
-                        
                                     </div>
-                                </div>
-                                <div class="bg-white py-4 px-6">
-                                    <h2 class=" text-Nblue font-rlw text-xl font-semibold">School Management</h2>
-                                    <p class="text-black  text-sm font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
-                                        consectetur adipisicing
-                                        elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
-                                    </p>
-                                    <div class=" flex justify-end mt-2"> <a class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
-                                           href="#">View Project</a> </div>
-                                </div>
+                                    <div class="bg-white py-4 px-6">
+                                        <h2 class=" text-Nblue font-rlw lg:text-xl text-base font-semibold">School Management</h2>
+                                        <p class="text-black  lg:text-sm text-xs font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing
+                                            elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
+                                        </p>
+                                        <div class=" flex justify-end mt-2"> <a class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
+                                               href="#">View Project</a> </div>
+                                    </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="shadow-smallS  bg-white">
                                 <div class=" bg-cover bg-center bg-no-repeat blog_banner  "
                                      style="background-image: url('./img/blog02.jpg');"></div>
-                                <div class="">
-                                    <div class="px-6 mt-2 flex justify-between items-center">
-                                        <div class="flex gap-6 items-center">
-                        
-                                            <div class=" flex items-center gap-3">
-                                                <div class="">
-                                                    <p class=" text-base text-Nblue">
-                                                        Project Duration :
-                                                    </p>
-                                                </div>
-                                                <div class="">
-                                                    <h2 class="text-base text-Nblue   font-rlw font-medium">2 Jun 2023 - 3 Jun 1998
-                                                    </h2>
-                                                </div>
+                                     <div class="">
+                                        <div class="px-6 mt-2 flex justify-between ">
+                                            <div class="">
+                                                <p class="text-start lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    Project Duration :
+                                                </p>
                                             </div>
-                        
+                                            <div class="">
+                                                <p class="text-end lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    2 Jun 2023 - 3 Jun 2023
+                                                </p>
+                                            </div>
                                         </div>
-                        
                                     </div>
-                                </div>
-                                <div class="bg-white py-4 px-6">
-                                    <h2 class=" text-Nblue font-rlw text-xl font-semibold">School Management</h2>
-                                    <p class="text-black  text-sm font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
-                                        consectetur adipisicing
-                                        elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
-                                    </p>
-                                    <div class=" flex justify-end mt-2"> <a class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
-                                           href="#">View Project</a> </div>
-                                </div>
+                                    <div class="bg-white py-4 px-6">
+                                        <h2 class=" text-Nblue font-rlw lg:text-xl text-base font-semibold">School Management</h2>
+                                        <p class="text-black  lg:text-sm text-xs font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing
+                                            elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
+                                        </p>
+                                        <div class=" flex justify-end mt-2"> <a class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
+                                               href="#">View Project</a> </div>
+                                    </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="shadow-smallS  bg-white">
                                 <div class=" bg-cover bg-center bg-no-repeat blog_banner  "
                                      style="background-image: url('./img/blog03.jpg');"></div>
-                                <div class="">
-                                    <div class="px-6 mt-2 flex justify-between items-center">
-                                        <div class="flex gap-6 items-center">
-                        
-                                            <div class=" flex items-center gap-3">
-                                                <div class="">
-                                                    <p class=" text-base text-Nblue">
-                                                        Project Duration :
-                                                    </p>
-                                                </div>
-                                                <div class="">
-                                                    <h2 class="text-base text-Nblue   font-rlw font-medium">2 Jun 2023 - 3 Jun 1998
-                                                    </h2>
-                                                </div>
+                                     <div class="">
+                                        <div class="px-6 mt-2 flex justify-between ">
+                                            <div class="">
+                                                <p class="text-start lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    Project Duration :
+                                                </p>
                                             </div>
-                        
+                                            <div class="">
+                                                <p class="text-end lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    2 Jun 2023 - 3 Jun 2023
+                                                </p>
+                                            </div>
                                         </div>
-                        
                                     </div>
-                                </div>
-                                <div class="bg-white py-4 px-6">
-                                    <h2 class=" text-Nblue font-rlw text-xl font-semibold">School Management</h2>
-                                    <p class="text-black  text-sm font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
-                                        consectetur adipisicing
-                                        elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
-                                    </p>
-                                    <div class=" flex justify-end mt-2"> <a class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
-                                           href="#">View Project</a> </div>
-                                </div>
+                                    <div class="bg-white py-4 px-6">
+                                        <h2 class=" text-Nblue font-rlw lg:text-xl text-base font-semibold">School Management</h2>
+                                        <p class="text-black  lg:text-sm text-xs font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing
+                                            elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
+                                        </p>
+                                        <div class=" flex justify-end mt-2"> <a class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
+                                               href="#">View Project</a> </div>
+                                    </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="shadow-smallS  bg-white">
                                 <div class=" bg-cover bg-center bg-no-repeat blog_banner  "
                                      style="background-image: url('./img/blog04.jpg');"></div>
-                                <div class="">
-                                    <div class="px-6 mt-2 flex justify-between items-center">
-                                        <div class="flex gap-6 items-center">
-                        
-                                            <div class=" flex items-center gap-3">
-                                                <div class="">
-                                                    <p class=" text-base text-Nblue">
-                                                        Project Duration :
-                                                    </p>
-                                                </div>
-                                                <div class="">
-                                                    <h2 class="text-base text-Nblue   font-rlw font-medium">2 Jun 2023 - 3 Jun 1998
-                                                    </h2>
-                                                </div>
+                                     <div class="">
+                                        <div class="px-6 mt-2 flex justify-between ">
+                                            <div class="">
+                                                <p class="text-start lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    Project Duration :
+                                                </p>
                                             </div>
-                        
+                                            <div class="">
+                                                <p class="text-end lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    2 Jun 2023 - 3 Jun 2023
+                                                </p>
+                                            </div>
                                         </div>
-                        
                                     </div>
-                                </div>
-                                <div class="bg-white py-4 px-6">
-                                    <h2 class=" text-Nblue font-rlw text-xl font-semibold">School Management</h2>
-                                    <p class="text-black  text-sm font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
-                                        consectetur adipisicing
-                                        elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
-                                    </p>
-                                    <div class=" flex justify-end mt-2"> <a class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
-                                           href="#">View Project</a> </div>
-                                </div>
+                                    <div class="bg-white py-4 px-6">
+                                        <h2 class=" text-Nblue font-rlw lg:text-xl text-base font-semibold">School Management</h2>
+                                        <p class="text-black  lg:text-sm text-xs font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing
+                                            elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
+                                        </p>
+                                        <div class=" flex justify-end mt-2"> <a class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
+                                               href="#">View Project</a> </div>
+                                    </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="shadow-smallS  bg-white">
                                 <div class=" bg-cover bg-center bg-no-repeat blog_banner  "
                                      style="background-image: url('./img/blog05.jpg');"></div>
-                                <div class="">
-                                    <div class="px-6 mt-2 flex justify-between items-center">
-                                        <div class="flex gap-6 items-center">
-                        
-                                            <div class=" flex items-center gap-3">
-                                                <div class="">
-                                                    <p class=" text-base text-Nblue">
-                                                        Project Duration :
-                                                    </p>
-                                                </div>
-                                                <div class="">
-                                                    <h2 class="text-base text-Nblue   font-rlw font-medium">2 Jun 2023 - 3 Jun 1998
-                                                    </h2>
-                                                </div>
+                                     <div class="">
+                                        <div class="px-6 mt-2 flex justify-between ">
+                                            <div class="">
+                                                <p class="text-start lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    Project Duration :
+                                                </p>
                                             </div>
-                        
+                                            <div class="">
+                                                <p class="text-end lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    2 Jun 2023 - 3 Jun 2023
+                                                </p>
+                                            </div>
                                         </div>
-                        
                                     </div>
-                                </div>
-                                <div class="bg-white py-4 px-6">
-                                    <h2 class=" text-Nblue font-rlw text-xl font-semibold">School Management</h2>
-                                    <p class="text-black  text-sm font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
-                                        consectetur adipisicing
-                                        elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
-                                    </p>
-                                    <div class=" flex justify-end mt-2"> <a class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
-                                           href="#">View Project</a> </div>
-                                </div>
+                                    <div class="bg-white py-4 px-6">
+                                        <h2 class=" text-Nblue font-rlw lg:text-xl text-base font-semibold">School Management</h2>
+                                        <p class="text-black  lg:text-sm text-xs font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing
+                                            elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
+                                        </p>
+                                        <div class=" flex justify-end mt-2"> <a class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
+                                               href="#">View Project</a> </div>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -311,7 +282,7 @@
 
 
     <!-- ===========Running-Project========= -->
-    <section>
+    <section class="px-3 lg:px-0">
         <div class="bg-bubbles py-10">
             <div class="container mx-auto">
                 <div class="chalenges_text">
@@ -327,222 +298,174 @@
                             <div class="shadow-smallS bg-white">
                                 <div class=" bg-cover bg-center bg-no-repeat blog_banner  "
                                      style="background-image: url('./img/blog_banner.jpg');"></div>
-                                <div class="">
-                                    <div class="px-6 mt-2 flex justify-between items-center">
-                                        <div class="flex gap-6 items-center">
-    
-                                            <div class=" flex items-center gap-3">
-                                                <div class="">
-                                                    <p class=" text-base text-Nblue">
-                                                        Project Duration :
-                                                    </p>
-                                                </div>
-                                                <div class="">
-                                                    <h2 class="text-base text-Nblue   font-rlw font-medium">2 Jun 2023 - 3
-                                                        Jun 1998
-                                                    </h2>
-                                                </div>
+                                     <div class="">
+                                        <div class="px-6 mt-2 flex justify-between ">
+                                            <div class="">
+                                                <p class="text-start lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    Project Duration :
+                                                </p>
                                             </div>
-    
+                                            <div class="">
+                                                <p class="text-end lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    2 Jun 2023 - 3 Jun 2023
+                                                </p>
+                                            </div>
                                         </div>
-    
                                     </div>
-                                </div>
-                                <div class="bg-white py-4 px-6">
-                                    <h2 class=" text-Nblue font-rlw text-xl font-semibold">School Management</h2>
-                                    <p class="text-black  text-sm font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
-                                        consectetur adipisicing
-                                        elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
-                                    </p>
-                                    <div class=" flex justify-end mt-2"> <a
-                                           class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
-                                           href="#">View Project</a> </div>
-                                </div>
+                                    <div class="bg-white py-4 px-6">
+                                        <h2 class=" text-Nblue font-rlw lg:text-xl text-base font-semibold">School Management</h2>
+                                        <p class="text-black  lg:text-sm text-xs font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing
+                                            elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
+                                        </p>
+                                        <div class=" flex justify-end mt-2"> <a class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
+                                               href="#">View Project</a> </div>
+                                    </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="shadow-smallS  bg-white">
                                 <div class=" bg-cover bg-center bg-no-repeat blog_banner  "
                                      style="background-image: url('./img/blog01.jpg');"></div>
-                                <div class="">
-                                    <div class="px-6 mt-2 flex justify-between items-center">
-                                        <div class="flex gap-6 items-center">
-    
-                                            <div class=" flex items-center gap-3">
-                                                <div class="">
-                                                    <p class=" text-base text-Nblue">
-                                                        Project Duration :
-                                                    </p>
-                                                </div>
-                                                <div class="">
-                                                    <h2 class="text-base text-Nblue   font-rlw font-medium">2 Jun 2023 - 3
-                                                        Jun 1998
-                                                    </h2>
-                                                </div>
+                                     <div class="">
+                                        <div class="px-6 mt-2 flex justify-between ">
+                                            <div class="">
+                                                <p class="text-start lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    Project Duration :
+                                                </p>
                                             </div>
-    
+                                            <div class="">
+                                                <p class="text-end lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    2 Jun 2023 - 3 Jun 2023
+                                                </p>
+                                            </div>
                                         </div>
-    
                                     </div>
-                                </div>
-                                <div class="bg-white py-4 px-6">
-                                    <h2 class=" text-Nblue font-rlw text-xl font-semibold">School Management</h2>
-                                    <p class="text-black  text-sm font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
-                                        consectetur adipisicing
-                                        elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
-                                    </p>
-                                    <div class=" flex justify-end mt-2"> <a
-                                           class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
-                                           href="#">View Project</a> </div>
-                                </div>
+                                    <div class="bg-white py-4 px-6">
+                                        <h2 class=" text-Nblue font-rlw lg:text-xl text-base font-semibold">School Management</h2>
+                                        <p class="text-black  lg:text-sm text-xs font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing
+                                            elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
+                                        </p>
+                                        <div class=" flex justify-end mt-2"> <a class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
+                                               href="#">View Project</a> </div>
+                                    </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="shadow-smallS  bg-white">
                                 <div class=" bg-cover bg-center bg-no-repeat blog_banner  "
                                      style="background-image: url('./img/blog02.jpg');"></div>
-                                <div class="">
-                                    <div class="px-6 mt-2 flex justify-between items-center">
-                                        <div class="flex gap-6 items-center">
-    
-                                            <div class=" flex items-center gap-3">
-                                                <div class="">
-                                                    <p class=" text-base text-Nblue">
-                                                        Project Duration :
-                                                    </p>
-                                                </div>
-                                                <div class="">
-                                                    <h2 class="text-base text-Nblue   font-rlw font-medium">2 Jun 2023 - 3
-                                                        Jun 1998
-                                                    </h2>
-                                                </div>
+                                     <div class="">
+                                        <div class="px-6 mt-2 flex justify-between ">
+                                            <div class="">
+                                                <p class="text-start lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    Project Duration :
+                                                </p>
                                             </div>
-    
+                                            <div class="">
+                                                <p class="text-end lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    2 Jun 2023 - 3 Jun 2023
+                                                </p>
+                                            </div>
                                         </div>
-    
                                     </div>
-                                </div>
-                                <div class="bg-white py-4 px-6">
-                                    <h2 class=" text-Nblue font-rlw text-xl font-semibold">School Management</h2>
-                                    <p class="text-black  text-sm font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
-                                        consectetur adipisicing
-                                        elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
-                                    </p>
-                                    <div class=" flex justify-end mt-2"> <a
-                                           class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
-                                           href="#">View Project</a> </div>
-                                </div>
+                                    <div class="bg-white py-4 px-6">
+                                        <h2 class=" text-Nblue font-rlw lg:text-xl text-base font-semibold">School Management</h2>
+                                        <p class="text-black  lg:text-sm text-xs font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing
+                                            elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
+                                        </p>
+                                        <div class=" flex justify-end mt-2"> <a class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
+                                               href="#">View Project</a> </div>
+                                    </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="shadow-smallS  bg-white">
                                 <div class=" bg-cover bg-center bg-no-repeat blog_banner  "
                                      style="background-image: url('./img/blog03.jpg');"></div>
-                                <div class="">
-                                    <div class="px-6 mt-2 flex justify-between items-center">
-                                        <div class="flex gap-6 items-center">
-    
-                                            <div class=" flex items-center gap-3">
-                                                <div class="">
-                                                    <p class=" text-base text-Nblue">
-                                                        Project Duration :
-                                                    </p>
-                                                </div>
-                                                <div class="">
-                                                    <h2 class="text-base text-Nblue   font-rlw font-medium">2 Jun 2023 - 3
-                                                        Jun 1998
-                                                    </h2>
-                                                </div>
+                                     <div class="">
+                                        <div class="px-6 mt-2 flex justify-between ">
+                                            <div class="">
+                                                <p class="text-start lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    Project Duration :
+                                                </p>
                                             </div>
-    
+                                            <div class="">
+                                                <p class="text-end lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    2 Jun 2023 - 3 Jun 2023
+                                                </p>
+                                            </div>
                                         </div>
-    
                                     </div>
-                                </div>
-                                <div class="bg-white py-4 px-6">
-                                    <h2 class=" text-Nblue font-rlw text-xl font-semibold">School Management</h2>
-                                    <p class="text-black  text-sm font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
-                                        consectetur adipisicing
-                                        elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
-                                    </p>
-                                    <div class=" flex justify-end mt-2"> <a
-                                           class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
-                                           href="#">View Project</a> </div>
-                                </div>
+                                    <div class="bg-white py-4 px-6">
+                                        <h2 class=" text-Nblue font-rlw lg:text-xl text-base font-semibold">School Management</h2>
+                                        <p class="text-black  lg:text-sm text-xs font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing
+                                            elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
+                                        </p>
+                                        <div class=" flex justify-end mt-2"> <a class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
+                                               href="#">View Project</a> </div>
+                                    </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="shadow-smallS  bg-white">
                                 <div class=" bg-cover bg-center bg-no-repeat blog_banner  "
                                      style="background-image: url('./img/blog04.jpg');"></div>
-                                <div class="">
-                                    <div class="px-6 mt-2 flex justify-between items-center">
-                                        <div class="flex gap-6 items-center">
-    
-                                            <div class=" flex items-center gap-3">
-                                                <div class="">
-                                                    <p class=" text-base text-Nblue">
-                                                        Project Duration :
-                                                    </p>
-                                                </div>
-                                                <div class="">
-                                                    <h2 class="text-base text-Nblue   font-rlw font-medium">2 Jun 2023 - 3
-                                                        Jun 1998
-                                                    </h2>
-                                                </div>
+                                     <div class="">
+                                        <div class="px-6 mt-2 flex justify-between ">
+                                            <div class="">
+                                                <p class="text-start lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    Project Duration :
+                                                </p>
                                             </div>
-    
+                                            <div class="">
+                                                <p class="text-end lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    2 Jun 2023 - 3 Jun 2023
+                                                </p>
+                                            </div>
                                         </div>
-    
                                     </div>
-                                </div>
-                                <div class="bg-white py-4 px-6">
-                                    <h2 class=" text-Nblue font-rlw text-xl font-semibold">School Management</h2>
-                                    <p class="text-black  text-sm font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
-                                        consectetur adipisicing
-                                        elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
-                                    </p>
-                                    <div class=" flex justify-end mt-2"> <a
-                                           class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
-                                           href="#">View Project</a> </div>
-                                </div>
+                                    <div class="bg-white py-4 px-6">
+                                        <h2 class=" text-Nblue font-rlw lg:text-xl text-base font-semibold">School Management</h2>
+                                        <p class="text-black  lg:text-sm text-xs font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing
+                                            elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
+                                        </p>
+                                        <div class=" flex justify-end mt-2"> <a class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
+                                               href="#">View Project</a> </div>
+                                    </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="shadow-smallS  bg-white">
                                 <div class=" bg-cover bg-center bg-no-repeat blog_banner  "
                                      style="background-image: url('./img/blog05.jpg');"></div>
-                                <div class="">
-                                    <div class="px-6 mt-2 flex justify-between items-center">
-                                        <div class="flex gap-6 items-center">
-    
-                                            <div class=" flex items-center gap-3">
-                                                <div class="">
-                                                    <p class=" text-base text-Nblue">
-                                                        Project Duration :
-                                                    </p>
-                                                </div>
-                                                <div class="">
-                                                    <h2 class="text-base text-Nblue   font-rlw font-medium">2 Jun 2023 - 3
-                                                        Jun 1998
-                                                    </h2>
-                                                </div>
+                                     <div class="">
+                                        <div class="px-6 mt-2 flex justify-between ">
+                                            <div class="">
+                                                <p class="text-start lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    Project Duration :
+                                                </p>
                                             </div>
-    
+                                            <div class="">
+                                                <p class="text-end lg:text-sm text-[11px] font-rlw font-semibold text-Nblue">
+                                                    2 Jun 2023 - 3 Jun 2023
+                                                </p>
+                                            </div>
                                         </div>
-    
                                     </div>
-                                </div>
-                                <div class="bg-white py-4 px-6">
-                                    <h2 class=" text-Nblue font-rlw text-xl font-semibold">School Management</h2>
-                                    <p class="text-black  text-sm font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
-                                        consectetur adipisicing
-                                        elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
-                                    </p>
-                                    <div class=" flex justify-end mt-2"> <a
-                                           class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
-                                           href="#">View Project</a> </div>
-                                </div>
+                                    <div class="bg-white py-4 px-6">
+                                        <h2 class=" text-Nblue font-rlw lg:text-xl text-base font-semibold">School Management</h2>
+                                        <p class="text-black  lg:text-sm text-xs font-rlw font-medium mt-3">Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing
+                                            elit. Cupiditate aliquid maxime, labore animi ullam eos eveniet....
+                                        </p>
+                                        <div class=" flex justify-end mt-2"> <a class="text-apink hover:text-Nblue  text-sm font-rlw font-medium "
+                                               href="#">View Project</a> </div>
+                                    </div>
                             </div>
                         </div>
                     </div>
